@@ -1,10 +1,6 @@
 library(dplyr)
-rec_2018 <- filter(
-  data_2018,
+data_pg <- filter(
+  data,
   country_name %in% ("Switzerland"), 
 )
 
-rec_2015 <- filter(
-  data_2015,
-  country_name %in% ("Switzerland"), 
-)

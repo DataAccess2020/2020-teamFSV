@@ -53,8 +53,10 @@ data_2$election_date <- as.Date(data_2$election_date)
 data_2 <- filter(data_2, 
                   election_date < "2007-10-21" & election_date >"1987-10-18")
 
+export(data_2, "data_2.dta")
+
+
 ####recoding 3:
-####recoding 2:
 
 #we have created a second dataset to check other years
 data_3 <-  filter(
@@ -79,6 +81,7 @@ data_3 <- filter(data_3,
                  election_date < "1991-10-20" & election_date >"1971-10-31")
 
 
+export(data_3, "data_3.dta")
 
 
 

@@ -17,3 +17,5 @@ data_pg$pol_pos <- cut(data_pg$left_right,
 
 # Here we selected only the variables we needed for the analysis, to clean a bit the dataset: 
 data_pg <- select (data_pg, country_name, election_date, vote_share, party_name_short, left_right, pol_pos)
+
+data_pg <- na.omit(data_pg)

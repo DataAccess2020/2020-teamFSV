@@ -29,7 +29,27 @@ data_pg <- filter(data_pg,
 library(rio)
 export(data_pg, "data_pg.dta")
 
+#we have created a second dataset to check other years
+data_2 <-  filter(
+  dat,
+  country_name == "Switzerland"
+)
 
+data_2$pol_pos <- cut(data_2$left_right, 
+                       breaks = c(0, 3.34, 6.67, 10), 
+                       labels = c("left", "center", "right" ),
+                       right = F)
+
+# Here we selected only the variables we needed for the analysis, to clean a bit the dataset: 
+data_2 <- select (data_2, country_name, election_date, vote_share, party_name_short, left_right, pol_pos)
+
+data_2 <- na.omit(data_2)
+
+data_2$election_date <- as.Date(data_2$election_date)
+
+#filtering only the years we are interested in: in this case 2003-1999-1995-1991
+data_2 <- filter(data_2, 
+                  election_date < "2007-10-21" & election_date >"1987-10-18")
 
 
 

@@ -13,3 +13,7 @@ ggplot(data=data_pg, aes(x=pol_pos, y=vote_share, fill=pol_pos)) +
         title = "Switzerland elections results",
         col= "black")
 
+
+
+
+

@@ -4,9 +4,8 @@ library(dplyr)
 #here we are selecting only Switzerland observation and removing the missing values: 
 
 data_pg <- filter(
-  data,
-  country_name == "Switzerland", 
-  na.rm==T
+  dat,
+  country_name == "Switzerland"
 )
 
 # Here we are recoding the new variable `pol_pos` in 3 categories (left, center and right): 

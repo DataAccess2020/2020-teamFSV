@@ -19,3 +19,27 @@ data_pg$pol_pos <- cut(data_pg$left_right,
 data_pg <- select (data_pg, country_name, election_date, vote_share, party_name_short, left_right, pol_pos)
 
 data_pg <- na.omit(data_pg)
+
+data_pg$election_date <- as.Date(data_pg$election_date)
+
+#filtering only the years we are interested in
+data_pg <- filter(data_pg, 
+                  election_date > "2003-10-19")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

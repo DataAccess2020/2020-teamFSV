@@ -25,6 +25,9 @@ data_pg$election_date <- as.Date(data_pg$election_date)
 data_pg <- filter(data_pg, 
                   election_date > "2003-10-19")
 
+#exporting the new dataset
+library(rio)
+export(data_pg, "data_pg.dta")
 
 
 

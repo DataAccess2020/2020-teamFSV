@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://www.parlgov.org/documentation/codebook/#election -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title> ParlGov · parties, elections, cabinets </title>
+  <meta name="description" content="Parliaments and governments database (ParlGov): Information on parties, elections and cabinets">
+  <meta name="keywords" content="ParlGov, parties, elections, governments, cabinets">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="ParlGov.org">
+  <meta name="copyright" content="2013 ParlGov.org">
+  <meta name="publisher" content="ParlGov.org">
+  <meta name="page-topic" content="Political Science">
+  <meta name="page-type" content="information">
+  <meta name="audience" content="all">
+  <meta http-equiv="imagetoolbar" content="no">
+  <link rel="icon" type="image/png" href="http://www.parlgov.org/static/images/parlgov-logo-icon.png">
+  <link rel="stylesheet" type="text/css" href="./ParlGov · parties, elections, cabinets_files/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./ParlGov · parties, elections, cabinets_files/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./ParlGov · parties, elections, cabinets_files/parlgov.css">
+  <link rel="alternate" type="application/rss+xml" href="http://www.parlgov.org/rss/news" title="RSS 2.0">
+  <script src="./ParlGov · parties, elections, cabinets_files/jquery.min.js"></script>
+  
+</head>
+
+<body class="start">
+
+
+<!--Navbar mobile devices -->
+<header class="navbar navbar-default navbar-static-top visible-xs" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://www.parlgov.org/"> <img src="./ParlGov · parties, elections, cabinets_files/parlgov-logo.svg"> </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="http://www.parlgov.org/"><i class="fa fa-home fa-fw"></i> Home </a>
+          </li>
+          <li>
+            <a href="http://www.parlgov.org/explore"><i class="fa fa-flag fa-fw"></i> Explore </a>
+          </li>
+          <li>
+            <a href="http://www.parlgov.org/data"><i class="fa fa-table fa-fw"></i> Data </a>
+          </li>
+          <li class="active">
+            <a href="http://www.parlgov.org/documentation"><i class="fa fa-align-left fa-fw"></i> Documentation </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+          <li>
+            
+              <a href="http://www.parlgov.org/accounts/login/?next=/documentation/codebook/"> <i class="fa fa-sign-in"></i> </a>
+            
+          </li>
+        </ul>
+    </nav>
+  </div>
+</header>
+
+<!--Navbar larger devices -->
+<header class="navbar navbar-default navbar-static-top hidden-xs" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://www.parlgov.org/"> <img src="./ParlGov · parties, elections, cabinets_files/parlgov-logo.svg"> </a>
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li>
+        <a href="http://www.parlgov.org/explore"> <i class="fa fa-flag fa-fw"></i> Explore</a>
+      </li>
+      <li class="dropdown">
+        <a href="http://www.parlgov.org/documentation/codebook/#" class="dropdown-toggle" data-toggle="dropdown"> Data <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="http://www.parlgov.org/data/table/view_party"><i class="fa fa-table fa-fw"></i> Parties</a></li>
+          <li><a href="http://www.parlgov.org/data/table/view_election"><i class="fa fa-table fa-fw"></i> Elections</a></li>
+          <li><a href="http://www.parlgov.org/data/table/view_cabinet"><i class="fa fa-table fa-fw"></i> Cabinets</a></li>
+          <li class="divider"></li>
+          <li><a href="http://www.parlgov.org/data"><i class="fa fa-download fa-fw"></i> Data</a></li>
+        </ul>
+      </li>
+      <li class="dropdown active">
+        <a href="http://www.parlgov.org/documentation/codebook/#" class="dropdown-toggle" data-toggle="dropdown"> Documentation <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="http://www.parlgov.org/documentation/news"><i class="fa fa-bullhorn fa-fw"></i> News</a></li>
+          <li><a href="http://www.parlgov.org/documentation/tweets"><i class="fa fa-twitter fa-fw"></i> Tweets</a></li>
+          <li class="divider"></li>
+          <li><a href="http://www.parlgov.org/documentation"><i class="fa fa-align-left fa-fw"></i> Documentation</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav pull-right">
+      <li>
+        
+          <a href="http://www.parlgov.org/accounts/login/?next=/documentation/codebook/"> <i class="fa fa-sign-in"></i> </a>
+        
+      </li>
+    </ul>
+  </div>
+</header>
+
+
+<div class="container">
+
+  
+
+  
+
+  
+    <div class="row">
+      <div class="col-sm-9">
+          
+
+
+
+          <a name="summary"></a>
+        <h1>Overview</h1>
+<p>We include elections and cabinets in <em>established democracies</em>. More specifically, we include democratic national lower house elections and EP elections for <em>all EU and most OECD members</em>. For the latter, we exclude presidential systems. We record all elections and succeeding cabinets after 1945 or after full democratization according to Boix ea. (2013).</p>
+<p>We also include elections and cabinets before 1945. We record information after 1900 or after the last democratic transition (Boix ea. 2013). As of today, these observations are experimental  and may need revision.</p>
+        <hr>
+      </div>
+      
+    </div>
+  
+    <div class="row">
+      <div class="col-sm-9">
+          
+
+
+
+          <a name="party"></a>
+        <h1>Parties</h1>
+<h2>Coding rules</h2>
+<p>We include parties winning <em>more than 1.0% vote share</em> in elections we cover</p>
+<p>Minor additions</p>
+<ul>
+<li>winning 2 seats in an election (eg. member of an electoral alliance)</li>
+<li>electoral alliances with at least 2 election results</li>
+<li>party groups that form in parliament<ul>
+<li>more than 5.0% seat share (eg. <a href="http://www.parlgov.org/explore/ita/party/1477/">ITA FLI</a>)</li>
+<li>forming in two parliamentary terms (eg. <a href="http://www.parlgov.org/explore/FRA/party/2272/">FRA GDR</a>)</li>
+<li>members of cabinet</li>
+<li>providing minority support to a cabinet</li>
+</ul>
+</li>
+<li>independent candidates with more than 1.0% vote share (eg. <a href="http://www.parlgov.org/explore/IRL/party/2327/">IRL Independent – Thomas (TJ) Maher</a>)</li>
+<li>less than 1.0% vote share<ul>
+<li>winning 1 seat in 2 elections</li>
+<li>2 election results as largest party no seats (first loser)</li>
+</ul>
+</li>
+<li>special categories: 'no-seat' and 'one-seat' (see <a href="http://www.parlgov.org/documentation/codebook/#election">election</a>)</li>
+</ul>
+<p>We avoid including minor parties or candidates that win a seat only in one election due to low threshold requirements.</p>
+<h2>Party change</h2>
+<p>New parties are recorded in 'party_change' and 'party_name_change'.</p>
+<p>Mergers and party splits are only added as a new party if the (largest) predecessor party won less than 75% of the combined vote of all preceding parties in the last election. Otherwise the largest party is just renamed.  </p>
+<p>Details</p>
+<ul>
+<li>Splits and re-mergers are recorded in the original party (eg. <a href="http://www.parlgov.org/explore/jpn/party/439/">JPN DP</a>)</li>
+<li>see also Barnea/Rahat (2011, 311): "a new label and that no more than half of its top candidates (top of candidate list or safe districts) originate from a single former party"</li>
+</ul>
+<h2>Party names</h2>
+<p>Party names are sentence case if no national (language) convention requires title case</p>
+<ul>
+<li>eg. party names for Germany are title case (German and English)</li>
+</ul>
+<p>Party names and delimiters · <em>recoding to be finished</em></p>
+<ul>
+<li>'–' different languages</li>
+<li>'/' ('+') alliances</li>
+<li>'|' generic names</li>
+</ul>
+<p>Year added to smaller party name if identical names exist in a country (eg. <a href="http://www.parlgov.org/explore/svk/party/2235/"> SVK SZ-92</a>)</p>
+<h2>Party positions</h2>
+<p>We provide aggregated party positions in four major dimensions. These positions are time-invariant unweighted mean values of information from party expert surveys on a 0 to 10 scale. All expert surveys are linked with ids from the 'party' table and original values are rescaled before calculating the mean</p>
+<p>Missing party positions for each dimension are imputed by mean values for the respective party family. We distinguish mean and imputed values by the number of decimal places. Mean values based on external datasets have five decimal places and imputed values have one decimal place only.</p>
+<p>Variables and sources</p>
+<ul>
+<li>left/right — Castles/Mair 1983 (<em>left/right</em>), Huber/Inglehart 1995 (<em>left/right</em>), Benoit/Laver 2006 – (<em>left/right</em>), CHES 2010 (<em>lrgen</em> 1999 and 2002 and 2006)</li>
+<li>state/market — Benoit/Laver 2006 (<em>taxes/spending</em>), CHES 2010 (<em>lrecon</em> 1999 and 2002 and 2006)</li>
+<li>liberty/authority — Benoit/Laver 2006 (<em>social</em>), CHES 2010 (<em>galtan</em> 1999 and 2002 and 2006)</li>
+<li>EU anti/pro — Ray 1999 (<em>pos96</em>), Benoit/Laver 2006 (<em>euauthority</em> or <em>eulargerstronger</em> or <em>eujoining</em>), CHES 2010 (<em>position</em> 1999 and 2002 and 2006)</li>
+</ul>
+<h2>Party families</h2>
+<p>We classify parties into families by their position in an economic (state/market) and a cultural (liberty/authority) left/right dimension.</p>
+<p>The classification leads to eight party family categories: Communist/Socialist, Green/Ecologist, Social democracy, Liberal, Christian democracy, Agrarian, Conservative, Right-wing.</p>
+<p>We use one classification for the entire history of a party and do not record changes (e.g. <a href="http://www.parlgov.org/explore/FIN/party/200">FIN SP|P</a>).</p>
+<p>We add further information about party families in a separate table (see <a href="http://www.parlgov.org/data/table/party_family/">party_family</a>).</p>
+        <hr>
+      </div>
+      
+    </div>
+  
+    <div class="row">
+      <div class="col-sm-9">
+          
+
+
+
+          <a name="election"></a>
+        <h1>Elections</h1>
+<h2>Coding rules</h2>
+<p>We include election results for</p>
+<ol>
+<li>all parties that won <em>1.0% vote share</em></li>
+<li>all parties that won <em>2 seats</em> (esp. alliance members)</li>
+</ol>
+<p>Details</p>
+<ul>
+<li>a party that won <em>less than 1.0%</em> vote share and <em>1 seat</em><ul>
+<li>several election results — included into the list of ParlGov parties</li>
+<li>single election result — recorded as a 'one-seat' party (eg. <a href="http://testing.parlgov.org/explore/pol/election/1991-10-27/">Poland</a>)</li>
+</ul>
+</li>
+<li>a party that won <em>less than 1.0%</em> vote share but was the <em>largest party that won no seat</em> (first loser)<ul>
+<li>several election results — included into the list of ParlGov parties</li>
+<li>single election result — recorded as a 'no-seat' party (eg. <a href="http://testing.parlgov.org/explore/aut/party/2055/">Austria</a>)</li>
+</ul>
+</li>
+<li>a party that won <em>less than 1.0%</em> vote share and <em>no seat</em> but is recorded in ParlGov through another election<ul>
+<li>included are only the election results with more that 1.0% vote share</li>
+</ul>
+</li>
+<li>parliamentary party groups<ul>
+<li>party group seat compositions different to election results </li>
+<li>significant changes in the composition of party groups (more than 5.0% seat share)</li>
+</ul>
+</li>
+<li>electoral alliances<ul>
+<li>electoral alliances are recorded by linking election results (variable 'alliance_id ') of alliance members to an alliance or the strongest party in an electoral alliance<ul>
+<li>each electoral alliance or alliance member recorded as an individual party should include 2 elections, if feasible</li>
+<li>alliances of parties that are part of a broader alliance are recorded with a 'data_json' ['alliance_alliance_id'] entry (eg. <a href="http://testing.parlgov.org/explore/ita/election/1996-04-21">Italy 1996</a>)</li>
+</ul>
+</li>
+<li><em>votes</em> are coded at the level of electoral results for all alliance members [recoding to be finished]</li>
+<li><em>seats</em> are coded for alliance members, if feasible [recoding to be finished]<ul>
+<li>seats of an alliance that forms a parliamentary group with members running independently are recorded for alliance members and with a 'parliament_change' (eg. Germany <a href="http://www.parlgov.org/explore/DEU/party/1727/">CDU/CSU</a>)</li>
+<li>seats of alliance members are recorded if no information about the parliamentary party group status is available</li>
+<li>a 'data_json' key 'seats_alliance' is added to the alliance to check data consistency</li>
+<li>a 'one seat' party which is part of an electoral alliance is coded as an alliance member (eg. <a href="http://testing.parlgov.org/explore/hun/election/2014-04-06/">Hungary 2014</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>'others'<ul>
+<li>only number of seats recorded</li>
+</ul>
+</li>
+</ul>
+<p>Earlier versions of ParlGov included only parties with seats in parliament and updating all countries to the 1.0% vote share rule was completed in December 2014.</p>
+<h2>Data sources</h2>
+<h3>National elections</h3>
+<p>Main sources</p>
+<ul>
+<li>official data source – national statistical office – see <a href="http://www.parlgov.org/documentation/country">country notes</a></li>
+<li>Nohlen — Elections: A Data Handbook – various volumes of elections around the world</li>
+<li>Mackie/Rose (1945–1990) — only  Western democracies</li>
+<li>Essex elections data on Post-Communist Europe (1990–200x)</li>
+<li><a href="http://www.politicaldatayearbook.com/">EJPR Political Data Yearbook</a> (1990–today)</li>
+<li><a href="http://dev.ulb.ac.be/cevipol/en/elections.html">CEVIPOL Electoral results</a> — Europe and Latin-America</li>
+</ul>
+<p>Others</p>
+<ul>
+<li><a href="http://www.ipu.org/parline-e/parlinesearch.asp">Parline</a></li>
+<li>Rokkan/Meyriat (1920–1965) — only  Western democracies</li>
+<li>Rose/Munro (1990–2001) — Post-Communist Europe</li>
+</ul>
+<h3>European parliament elections</h3>
+<p><em>Sorted by preference for coding selection</em></p>
+<ol>
+<li>official data source – national statistical office</li>
+<li>European Parliament (EP) election report (esp. 1979–1999) — based on official statistics</li>
+<li>EJPR yearbook (1990–today)</li>
+</ol>
+        <hr>
+      </div>
+      
+    </div>
+  
+    <div class="row">
+      <div class="col-sm-9">
+          
+
+
+
+          <a name="cabinet"></a>
+        <h1>Cabinets</h1>
+<h2>Cabinet definition</h2>
+<p>We record a new cabinet for these events (cf. Budge/Keman 1993: 10)</p>
+<ol>
+<li>any change of parties with cabinet membership</li>
+<li>any change of the prime minister</li>
+<li>any general election</li>
+</ol>
+<p>All parties with ministers in cabinet are included (Indridason/Bowler 2014: 396)</p>
+<ol>
+<li>right to attend cabinet meetings</li>
+<li>right to cast vote before cabinet (if applicable)</li>
+</ol>
+<p>Details</p>
+<ul>
+<li>three month rule<ul>
+<li>a continuation (caretaker) cabinet (subset of previous coalition, no new party) is coded once for any change lasting longer than three months</li>
+<li>the three month rule refers to the exact day of the date, not the number of days</li>
+</ul>
+</li>
+<li>any meaningful investiture procedure defines a new cabinet (eg. <a href="http://www.parlgov.org/explore/tur/cabinet/1995-10-05/">TUR Ciller II</a>)</li>
+<li>any meaningful resignation defines a new cabinet<ul>
+<li>a formal resignation request (eg. <a href="http://www.parlgov.org/explore/aut/cabinet/1949-11-08/">Figl III</a>)</li>
+<li>a successful dissolution request under negative parliamentarism (eg. <a href="http://www.parlgov.org/explore/swe/cabinet/1958-06-01/">SWE Erlander VII</a>)</li>
+<li>a lost vote of confidence (or early election vote) and change to caretaker status (eg. <a href="http://www.parlgov.org/explore/svk/cabinet/2011-10-20/">SVK Radicova II</a>, <a href="http://www.parlgov.org/explore/isr/cabinet/1998-01-04/">ISR Netanyahu II 1998</a>)</li>
+</ul>
+</li>
+<li>cabinet parties not included<ul>
+<li>ministers without portfolio, interim or junior ministers</li>
+<li>cabinet members without party affiliation (party family 'none') are only coded if the prime minister has no party affiliation</li>
+<li>parties supporting a (minority) cabinet are included in table 'cabinet support' — if information available</li>
+</ul>
+</li>
+<li>parliamentary groups and alliances<ul>
+<li>political parties are recorded as parliamentary groups (eg. <a href="http://www.parlgov.org/explore/DEU/party/1727/">DEU CDU/CSU</a>)</li>
+<li>alliance members that join a parliamentary group are recorded as support parties (eg. <a href="http://www.parlgov.org/explore/pol/cabinet/2015-11-16/">POL Szydlo</a> 2015)</li>
+</ul>
+</li>
+<li>country specific<ul>
+<li>Switzerland: changes in the identity of the President of the Swiss Confederation (Bundespräsident) do not define a new cabinet (cf. Kriesi/Trechsel 2008, 75-76)</li>
+</ul>
+</li>
+</ul>
+<p>Examples</p>
+<ul>
+<li>three month constraint<ul>
+<li><a href="http://www.parlgov.org/explore/pol/cabinet/2006-07-14/">POL Kaczynski</a> (2006) — coded as one cabinet<ul>
+<li>SRP withdraws from cabinet on 22 September 2006 (party composition change) and re-enters on 16 October</li>
+<li>SRP and LPR dismissal on 13 August 2007 (party composition change) — elections take place on 19 October 2007 (within three months)</li>
+</ul>
+</li>
+<li><a href="http://www.parlgov.org/explore/bel/cabinet/2010-06-13/">BEL Leterme III</a> (2010) — coded as one cabinet (three month constraint)<ul>
+<li>Previous coalition collapses on 26 April 2010 (party composition change) — new elections on 13 June. Pre-election caretaker cabinets lasts for less and post-election cabinet for more than three months.</li>
+</ul>
+</li>
+<li>'data_json' entry 'three_month_rule' in 'cabinet' table lists cabinets were the rule is applied to add (or not to add) a caretaker cabinet (experimental version)</li>
+<li>further examples: <a href="http://www.parlgov.org/explore/aut/cabinet/1962-11-18/">AUT Gorbach II</a> (1962), <a href="http://www.parlgov.org/explore/nld/cabinet/2010-02-23/">NLD Balkenende V</a> (2010)</li>
+</ul>
+</li>
+<li>PM appointment without cabinet appointment — <a href="http://www.parlgov.org/explore/ita/cabinet/1972-02-17/">Andreotti I</a> and <a href="http://www.parlgov.org/explore/pol/cabinet/1992-06-05/">Pawlak I</a>  </li>
+<li>party formation and dissolution — <a href="http://www.parlgov.org/explore/aut/cabinet/2003-02-28/">AUT Schuessel III</a> (2003) [json: 'party_split'], <a href="http://www.parlgov.org/explore/irl/cabinet/2008-05-07/">IRL Cowen</a> (2008), <a href="http://www.parlgov.org/explore/rou/cabinet/2010-05-19/">ROU Boc III</a>  (2010)</li>
+</ul>
+<p>Damgaard (1994: 194-95) and Müller/Strom (2000: 12) provide a more comprehensive discussion of cabinet definitions.</p>
+<h2>Caretaker</h2>
+<p>Cabinets with a limited legislative mandate (cf. McDonnell/Valbruzzi 2014, 664)</p>
+<ul>
+<li>non-partisan: cabinet members without partisan affiliation</li>
+<li>provisional: appointed post-transition cabinet</li>
+<li>technical: institutional reasons</li>
+<li>continuation: remaining in office (see "tree month rule" above)<ul>
+<li>resignation of PM or cabinet</li>
+<li>dissolution of parliament</li>
+<li>after election until new cabinet forms</li>
+</ul>
+</li>
+</ul>
+<h2>Cabinet type</h2>
+<p>Government status (minority, minimum winning or surplus majority) is determined only by the seat share of government parties in parliament and not coded manually.</p>
+<p>If there is an electoral alliance with separate seat shares but one of the parties is not a cabinet member, the government will be treated as a minority government (eg. UK 1951). Similarly, if any of the governing parties can be removed and the other governing parties still hold a majority in parliament, the cabinet is considered to be a surplus majority cabinet.</p>
+<h2>Cabinet termination</h2>
+<p><em>Experimental version only</em> — coding has yet to be completed</p>
+<p>Coding rule: The same events that define a new government are used to define the termination date of a government. Cabinets may remain in office for a short period after the initial terminal event. The 'description' field should give a short description of events other than an election that led to the fall of a government and these events should be coded in the 'data_json' field.</p>
+<h2>Confidence votes</h2>
+<p><em>Experimental version only</em> — coding has yet to be completed</p>
+<p>Confidence votes are added for all recent cabinets but are not included for all cabinets in ParlGov.</p>
+<ul>
+<li>investiture (confidence) votes for new cabinets</li>
+<li>confidence votes that lead to the termination of a cabinet</li>
+<li>important (won) confidence votes.</li>
+</ul>
+<p>Details</p>
+<ul>
+<li>constructive vote of no confidence<ul>
+<li>coded for outgoing cabinet (eg. <a href="http://www.parlgov.org/explore/deu/cabinet/1980-11-05/">DEU Schmitt III</a>, <a href="http://www.parlgov.org/explore/ESP/cabinet/2016-10-29/">ESP Rajoy IV</a>)</li>
+<li>note about vote of no confidence also added to description of new cabinet</li>
+</ul>
+</li>
+</ul>
+<h2>Presidents</h2>
+<p>We include all party-affiliated heads of state. Short-term acting presidents are not included. See table <a href="http://www.parlgov.org/data/table/politician_president/">president</a>.</p>
+<h2>Data sources</h2>
+<p>For new cabinets and revisions of observations, we derive information about cabinet termination from news sources, preferably from the news agencies Reuters, AFP or the main national news agency</p>
+<p>For West European countries we double checked our initial observations with the data in Müller/Strom (2000). For Central- and Eastern European countries we compared our information to Müller-Rommel ea. (2008).</p>
+<ul>
+<li>EJPR yearbook (1990–today) — <a href="http://www.politicaldatayearbook.com/">www.politicaldatayearbook.com</a></li>
+<li>European Representative Democracy Data Archive — <a href="http://erdda.se/index.php/projects/erd">www.erdda.se</a></li>
+<li>Müller/Strom (2000) — governments in Western Europe (1945–2000)</li>
+<li>Müller-Rommel ea. (2008) and Conrad/Golder (2010) — governments in Central/Eastern Europe (1990—2009)</li>
+<li>Flora (1983) — inter-war governments</li>
+<li>Wikipedia</li>
+</ul>
+        <hr>
+      </div>
+      
+    </div>
+  
+
+
+
+  
+
+</div>
+
+
+<footer>
+  <p class="bs-footer hidden-xs">
+    <a href="http://www.parlgov.org/"> <i class="fa fa-home"></i> </a> •
+    ParlGov database • Holger Döring and Philip Manow • 2005 – today
+    •
+    <a href="http://www.parlgov.org/documentation/news"> <i class="fa fa-bullhorn"></i> </a> ·
+    <a href="http://www.parlgov.org/documentation/tweets"> <i class="fa fa-twitter"></i> </a> ·
+    <a href="http://www.parlgov.org/rss/news"> <i class="fa fa-rss"></i> </a>
+  </p>
+  <p class="bs-footer visible-xs">
+    <a href="http://www.parlgov.org/"> <img src="./ParlGov · parties, elections, cabinets_files/parlgov-logo.svg"> </a>
+  </p>
+</footer>
+
+
+<!-- Javascript -- Placed at the end of the document so the pages load faster -->
+<script src="./ParlGov · parties, elections, cabinets_files/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $(function () { $("[rel='tooltip']").tooltip(); });
+  $(function () { $("[data-toggle='popover']").popover({html: true}); });
+</script>
+
+
+
+
+
+
+</body></html>

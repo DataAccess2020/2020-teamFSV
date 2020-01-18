@@ -26,6 +26,8 @@ The first thing that comes to our attention is how the situation changes from 19
 What happened before? In this plot we consider the years *1975, 1979, 1983 and 1987*. 
 Once again a different situation, we observe here that in 1975 the left had the highest percentage of votes. It reached 25% in that year, then it declined in the following elections, reaching about 20% in 1987. Here we see that the left and the center had a similar percentage of votes in the first three years, while the right remained isolated all the time, with a percentage of votes of about 10% in all the years considered (even though it was slowly increasing). We can also notice that the votes for the left slowly decreased during the years, while the votes for the center increased from 1975 to 1979, and then decreased in the following elections. 
 
+## Considerations 
+Taking a look at all the years considered, we can notice that both the right was the only party that was able to obtain more than 30% of votes. We can also state that the right had a stronger majority than what the other two parties could reach, and it was able to maintain this result for the four elections from 2007 to 2019. Also, the center was the one with the smallest share of votes in the last *six elections*. It is also interesting to notiche that through all the years considered, the results for the left and the center are always more similar to each other than they are to the results of the right. Could it be that the left and the center have more similar features, programs and opinions? 
 
 
 

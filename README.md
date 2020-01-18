@@ -17,3 +17,9 @@ Here we describe the plot we displayed and our observations about them
 In the first plot, we observe the years *2007, 2011, 2015, and 2019*.
 What we notice here is that the right wing has the majority of votes in all the four years, collecting more than 25% of the votes in all the cases. The left and the center follow, and their shares of votes are more close to each other, obtaining about 20% of votes for the left and about 15% for the center, in all the years considered. We can also point to the fact that the results for right and left see a minimum in 2019 in respect to the years considered. 
 
+### Plot two 
+
+In the second plot, we observe tye years *1991, 1995, 1999 and 2003*. 
+The first thing that comes to our attention is how the situation changes from 1991 to 2003: the center was the political position that gained more votes in 1991, and it became the last of the three in 2003. What happen is that the center had about 20% of votes in 1991, then its results decreased a little in 1995 and 1999, and then tye were about 15% in 2003. On the other hand, the left went from having less than 20% of votes in 1991, to having about 24% in 2003. The most accelerating was the right, which started with a little more than 10% in 1991, reached 15% in 1995, got about 23% of votes in 1999 and over 25% in 2003. So in 2003 the right reached the result that it then kept for the four subsequent elections. 
+
+

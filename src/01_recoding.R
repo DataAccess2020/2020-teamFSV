@@ -1,86 +1,110 @@
-#this the recoding script
-####recoding 1
-library(dplyr)
-#here we are selecting only Switzerland observation and removing the missing values: 
+#CE 1 
+#Team FSV
 
+# This script include the recodes for the whole analysis: 
+#- creating the 3 new datasets
+#- filtering only Swiss observations
+#- creating the new variable `pol_pos`
+#- selecting only the variable we are interested in 
+#- filtering only the election years we are interested in
+#- omitting NA
+#- exporting them
+
+
+# recoding the first dataset: ------------------------------------------
+
+# load the package:
+library(dplyr)
+
+# select only Switzerland observation: 
 data_pg <- filter(
   dat,
   country_name == "Switzerland"
 )
 
-# Here we are recoding the new variable `pol_pos` in 3 categories (left, center and right): 
+# recoding the new variable `pol_pos` in 3 categories (left, center and right): 
 data_pg$pol_pos <- cut(data_pg$left_right, 
                           breaks = c(0, 3.34, 6.67, 10), 
                           labels = c("left", "center", "right" ),
                           right = F)
 
-# Here we selected only the variables we needed for the analysis, to clean a bit the dataset: 
+# selecting only the variables we needed for the analysis: 
 data_pg <- select (data_pg, country_name, election_date, vote_share, party_name_short, left_right, pol_pos)
 
+# omitting missing values: 
 data_pg <- na.omit(data_pg)
 
+# checking that the var `election_date` is a date variable:
 data_pg$election_date <- as.Date(data_pg$election_date)
 
-#filtering only the years we are interested in
+#filtering only the years we are interested in: in this case 2007-2011-2015-2019
 data_pg <- filter(data_pg, 
                   election_date > "2003-10-19")
 
-#exporting the new dataset
+#exporting the new dataset:
 library(rio)
 export(data_pg, "data_pg.dta")
 
-####recoding 2:
 
-#we have created a second dataset to check other years
+# recoding the second dataset: ------------------------------------------
+
+# select only Switzerland observation: 
 data_2 <-  filter(
   dat,
   country_name == "Switzerland"
 )
 
+# recoding the new variable `pol_pos` in 3 categories (left, center and right): 
 data_2$pol_pos <- cut(data_2$left_right, 
                        breaks = c(0, 3.34, 6.67, 10), 
                        labels = c("left", "center", "right" ),
                        right = F)
 
-# Here we selected only the variables we needed for the analysis, to clean a bit the dataset: 
+# selecting only the variables we needed for the analysis: 
 data_2 <- select (data_2, country_name, election_date, vote_share, party_name_short, left_right, pol_pos)
 
+# omitting missing values: 
 data_2 <- na.omit(data_2)
 
+# checking that the var `election_date` is a date variable:
 data_2$election_date <- as.Date(data_2$election_date)
 
 #filtering only the years we are interested in: in this case 2003-1999-1995-1991
 data_2 <- filter(data_2, 
                   election_date < "2007-10-21" & election_date >"1987-10-18")
 
+#exporting the new dataset:
 export(data_2, "data_2.dta")
 
 
-####recoding 3:
+# recoding the third dataset: ------------------------------------------
 
-#we have created a second dataset to check other years
+# select only Switzerland observation: 
 data_3 <-  filter(
   dat,
   country_name == "Switzerland"
 )
 
+# recoding the new variable `pol_pos` in 3 categories (left, center and right): 
 data_3$pol_pos <- cut(data_3$left_right, 
                       breaks = c(0, 3.34, 6.67, 10), 
                       labels = c("left", "center", "right" ),
                       right = F)
 
-# Here we selected only the variables we needed for the analysis, to clean a bit the dataset: 
+# selecting only the variables we needed for the analysis: 
 data_3 <- select (data_3, country_name, election_date, vote_share, party_name_short, left_right, pol_pos)
 
+# omitting missing values: 
 data_3 <- na.omit(data_3)
 
+# checking that the var `election_date` is a date variable:
 data_3$election_date <- as.Date(data_3$election_date)
 
 #filtering only the years we are interested in: in this case 1987-1983-1979-1975
 data_3 <- filter(data_3, 
                  election_date < "1991-10-20" & election_date >"1971-10-31")
 
-
+#exporting the new dataset:
 export(data_3, "data_3.dta")
 
 

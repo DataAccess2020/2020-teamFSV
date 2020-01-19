@@ -41,7 +41,11 @@ On the other hand, the left went from having less than 20% of votes in 1991, to 
 
 ## Plot three 
 
+<<<<<<< HEAD
 ![Figure 3](/plot/plot3.png)
+=======
+![plot3](/plot/plot3.png)
+>>>>>>> 28a1014f338da196235540f674ab9ced2c83f301
 
 In this plot we consider the years *1975, 1979, 1983 and 1987*. 
 

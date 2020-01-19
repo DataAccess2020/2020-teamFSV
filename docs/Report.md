@@ -46,9 +46,10 @@ Once again a different situation, we observe here that in 1975 the left had the 
 
 # Conclusion:
 
-In conclusion, among the 12 different elections that were here analysed, the center parties had the majority of votes only in 3 occassions (1983 - 1987 - 1991). This does not provide enought evidence to confirm the theory of the "Median Voter". 
+In conclusion, among the 12 different elections that were here analysed, the central parties had the majority of votes only in 3 occassions (1983 - 1987 - 1991). 
 
-Also, the center parties ware the ones with the smallest share of votes in the last *six elections*. It is also interesting to notiche that through all the years considered, the results for the left and the center are always more similar to each other than they are to the results of the right. Could it be that the left and the center have more similar features, programs and opinions? 
+Also, the center parties were the ones with the smallest share of votes in the last *six elections*. It is also interesting to noticed that through all the years considered, the results for the left and the center are always more similar to each other than they are to the results of the right. Could it be that the left and the center have more similar features, programs and opinions? 
 
-
+This does not provide enought evidence to confirm the theory of the "Median Voter". 
+Our research was limited to the Switzerland's observations so this conclusion cannot be extended to the whole sample of countries. 
 

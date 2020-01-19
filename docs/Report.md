@@ -32,6 +32,8 @@ From those 4 election we can clearly observe that the central party did not win,
 
 ## Plot two 
 
+![plot2](/plot/plot2.png)
+
 In the second plot, we observe the years *1991, 1995, 1999 and 2003*. 
 The first thing that comes to our attention is how the situation changes from 1991 to 2003: the center was the political position that gained more votes in 1991, and it became the last of the three in 2003. What happen is that the center had about 20% of votes in 1991, then its results decreased a little in 1995 and 1999, and then they were about 15% in 2003. 
 

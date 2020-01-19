@@ -1,7 +1,7 @@
 # teamFSV
 Rep for the team (Giua, Davì, Ragazzi)
 
-#Introduction: 
+# Introduction: 
 The theoretical assumption for this research is the "Median Voter’s theorem" that states that under majority rule voting systems, political parties should position themselves close to
 the outcome preferred by the median voter.
 
@@ -22,6 +22,19 @@ To perform our analysis we made some informative plots, describing the results o
 
 
 ## Plot one
+
+```{r}
+ggplot(data=data_pg, aes(x=pol_pos, y=vote_share, fill=pol_pos)) +
+  geom_bar(position = position_dodge(), stat="identity")+
+  facet_wrap(~election_date)   +         
+  scale_fill_manual(values = c("red3", "seagreen", "steelblue4")) +
+  theme(axis.text.x = element_text(angle = 0, hjust = 1, size = 10)) +
+  labs( x= "Political position",
+        y = "Percentages of vote",
+        title = "Switzerland elections: 2007-2011-2015-2019",
+        col= "black")
+```
+![image] (https://raw.githubusercontent.com/DataAccess2020/teamFSV/branch-3/plot/plot1.png)
 
 In the first plot, we observe the years *2007, 2011, 2015, and 2019*.
 What we notice here is that the right wing has the majority of votes in all the four years, collecting more than 25% of the votes in all the cases. The left and the center follow, and their shares of votes are more close to each other, obtaining about 20% of votes for the left and about 15% for the center, in all the years considered. We can also point to the fact that the results for right and left see a minimum in 2019 in respect to the years considered. 

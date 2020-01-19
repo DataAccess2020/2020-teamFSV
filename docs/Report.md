@@ -23,7 +23,7 @@ To perform our analysis we made some informative plots, describing the results o
 
 ## Plot one
 
-![image] (https://raw.githubusercontent.com/DataAccess2020/teamFSV/branch-3/plot/plot1.png)
+![plot1](https://github.com/DataAccess2020/teamFSV/blob/master/plot/plot1.png)
 
 In the first plot, we observe the years *2007, 2011, 2015, and 2019*.
 What we notice here is that the right wing has the majority of votes in all the four years, collecting more than 25% of the votes in all the cases. The left and the center follow, and their shares of votes are more close to each other, obtaining about 20% of votes for the left and about 15% for the center, in all the years considered. We can also point to the fact that the results for right and left see a minimum in 2019 in respect to the years considered. 

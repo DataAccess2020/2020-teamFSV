@@ -22,26 +22,14 @@ data_pg <- filter(
   country_name == "Switzerland"
 )
 
-<<<<<<< HEAD
-=======
+
 # recoding the new variable `pol_pos` in 3 categories (left, center and right): 
->>>>>>> 061309be6a88cafd80a40a00752397975c17a048
+
 data_pg$pol_pos <- cut(data_pg$left_right, 
-<<<<<<< HEAD
                        breaks = c(0, 3.34, 6.67, 10), 
                        labels = c("left", "center", "right" ),
                        right = F)
-<<<<<<< HEAD
-=======
-                          breaks = c(0, 3.34, 6.67, 10), 
-                          labels = c("left", "center", "right" ),
-                          right = F)
->>>>>>> ae064b4be5395b196114ab1ea97ca445fb7ecffd
-=======
-<<<<<<< HEAD
-data_pg <- na.omit(data) 
-=======
->>>>>>> 9e10b8346b93ff1124730a67af8954c7a23efab9
+
 
 # selecting only the variables we needed for the analysis: 
 data_pg <- select (data_pg, country_name, election_date, vote_share, party_name_short, left_right, pol_pos)
@@ -71,15 +59,10 @@ data_2 <-  filter(
 
 # recoding the new variable `pol_pos` in 3 categories (left, center and right): 
 data_2$pol_pos <- cut(data_2$left_right, 
-<<<<<<< HEAD
                       breaks = c(0, 3.34, 6.67, 10), 
                       labels = c("left", "center", "right" ),
                       right = F)
-=======
-                       breaks = c(0, 3.34, 6.67, 10), 
-                       labels = c("left", "center", "right" ),
-                       right = F)
->>>>>>> ae064b4be5395b196114ab1ea97ca445fb7ecffd
+                      
 
 # selecting only the variables we needed for the analysis: 
 data_2 <- select (data_2, country_name, election_date, vote_share, party_name_short, left_right, pol_pos)

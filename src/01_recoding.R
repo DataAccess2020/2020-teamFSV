@@ -112,4 +112,4 @@ data_3 <- filter(data_3,
 
 #exporting the new dataset:
 export(data_3, "data_3.dta")
->>>>>>> 061309be6a88cafd80a40a00752397975c17a048
+

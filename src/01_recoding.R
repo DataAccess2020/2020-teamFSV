@@ -24,9 +24,15 @@ data_pg <- filter(
 
 # recoding the new variable `pol_pos` in 3 categories (left, center and right): 
 data_pg$pol_pos <- cut(data_pg$left_right, 
+<<<<<<< HEAD
                        breaks = c(0, 3.34, 6.67, 10), 
                        labels = c("left", "center", "right" ),
                        right = F)
+=======
+                          breaks = c(0, 3.34, 6.67, 10), 
+                          labels = c("left", "center", "right" ),
+                          right = F)
+>>>>>>> ae064b4be5395b196114ab1ea97ca445fb7ecffd
 
 # selecting only the variables we needed for the analysis: 
 data_pg <- select (data_pg, country_name, election_date, vote_share, party_name_short, left_right, pol_pos)
@@ -56,9 +62,15 @@ data_2 <-  filter(
 
 # recoding the new variable `pol_pos` in 3 categories (left, center and right): 
 data_2$pol_pos <- cut(data_2$left_right, 
+<<<<<<< HEAD
                       breaks = c(0, 3.34, 6.67, 10), 
                       labels = c("left", "center", "right" ),
                       right = F)
+=======
+                       breaks = c(0, 3.34, 6.67, 10), 
+                       labels = c("left", "center", "right" ),
+                       right = F)
+>>>>>>> ae064b4be5395b196114ab1ea97ca445fb7ecffd
 
 # selecting only the variables we needed for the analysis: 
 data_2 <- select (data_2, country_name, election_date, vote_share, party_name_short, left_right, pol_pos)
@@ -71,7 +83,11 @@ data_2$election_date <- as.Date(data_2$election_date)
 
 #filtering only the years we are interested in: in this case 2003-1999-1995-1991
 data_2 <- filter(data_2, 
+<<<<<<< HEAD
                  election_date < "2007-10-21" & election_date >"1987-10-18")
+=======
+                  election_date < "2007-10-21" & election_date >"1987-10-18")
+>>>>>>> ae064b4be5395b196114ab1ea97ca445fb7ecffd
 
 #exporting the new dataset:
 export(data_2, "data_2.dta")
@@ -106,3 +122,17 @@ data_3 <- filter(data_3,
 
 #exporting the new dataset:
 export(data_3, "data_3.dta")
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> ae064b4be5395b196114ab1ea97ca445fb7ecffd
